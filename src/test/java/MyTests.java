@@ -31,7 +31,7 @@ public class MyTests {
         assertEquals("110", MyMain.decimalToBinary(6), "The binary representation of 6 should be: \"110\"");
         assertEquals("111", MyMain.decimalToBinary(7), "The binary representation of 7 should be: \"111\"");
         assertEquals("1000", MyMain.decimalToBinary(8), "The binary representation of 8 should be: \"1000\"");
-        assertEquals("0", MyMain.decimalToBinary(1), "The binary representation of 0 should be: \"0\"");
+        assertEquals("0", MyMain.decimalToBinary(0), "The binary representation of 0 should be: \"0\"");
         assertEquals("10101010", MyMain.decimalToBinary(170), "The binary representation of 170 should be: \"10101010\"");
         assertEquals("1111111111", MyMain.decimalToBinary(1023), "The binary representation of 1023 should be: \"1111111111\"");
         assertEquals("1000001", MyMain.decimalToBinary(65), "The binary representation of 65 should be: \"1000001\"");
